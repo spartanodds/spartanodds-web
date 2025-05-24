@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spartan Odds</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0a0a0f;
+      color: #ffffff;
+    }
+    header {
+      background-color: #0d0d1a;
+      padding: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 1000;
+    }
+    header img {
+      height: 50px;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #00ffff;
+      font-weight: bold;
+    }
+    .hero {
+      padding-top: 6rem;
+      text-align: center;
+    }
+    .hero img {
+      width: 200px;
+      margin-bottom: 1rem;
+    }
+    .hero h1 {
+      color: #00ffff;
+      font-size: 2.5rem;
+    }
+    section {
+      padding: 2rem;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: #121221;
+      color: #ffffff;
+    }
+    th, td {
+      padding: 0.75rem;
+      text-align: center;
+      border-bottom: 1px solid #333;
+    }
+    th {
+      background-color: #1c1c2e;
+      color: #00ffff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="mascote.png" alt="Spartan Odds Mascote" />
+    <nav>
+      <a href="#inicio">Início</a>
+      <a href="#odds">Odds do Dia</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <div class="hero" id="inicio">
+    <img src="mascote.png" alt="Mascote Spartan Odds" />
+    <h1>Spartan Odds</h1>
+    <p>Aposte com inteligência e estratégia</p>
+  </div>
+
+  <section id="odds">
+    <h2>Odds do Dia</h2>
+    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQDF3YmQwxGhxU_M3iRKwfrT0SHZPFLQIA2twgtZyAGeJL-n04SIt2BgWcR8PH3coqHZu-xCyXqsLPP/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height="600" frameborder="0"></iframe>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>Em breve!</p>
+  </section>
+</body>
+</html>
